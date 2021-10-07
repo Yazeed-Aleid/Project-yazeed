@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(231, 231, 231);
+}
+.main{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+img{
+    width: 100%;
+    height: 40%;
+    padding-bottom: 0px;
+    border: solid  1px;
+    background-color: rgb(87, 87, 39);
+
+  /* filter: blur(3px); */
+  /* filter: grayscale(1); */
+  filter: saturate(2.2);
+
+  
+
+}
+
+.card img{
+    height: 150px;
+    width: 250px;
+    
+}
+.navbar{
+    width:100% ;
+    /* .background-color:aquamarine */
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btnn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+}
+table tr td{
+    border: 1px solid red;
+}
+
