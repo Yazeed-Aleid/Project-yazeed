@@ -21,6 +21,7 @@ img{
   /* filter: blur(3px); */
   /* filter: grayscale(1); */
   filter: saturate(2.2);
+  
 
   
 
@@ -47,5 +48,8 @@ img{
 }
 table tr td{
     border: 1px solid red;
+}
+.slider img{
+    width: 50px;
 }
 
